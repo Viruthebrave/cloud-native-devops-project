@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t viruthebrave/cloud-devops-app:v1 .
+        run: docker build -t patilvirupakshi/cloud-devops-app:v1 .
 
       - name: Push Docker image
-        run: docker push viruthebrave/cloud-devops-app:v1
+        run: docker push patilvirupakshi/cloud-devops-app:v1
